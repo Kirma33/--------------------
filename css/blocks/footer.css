@@ -1,0 +1,26 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background: #2C3878;
+  padding-bottom: 50px;
+}
+.footer__logo {
+  color: #FFF;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 170%;
+}
+.footer__tel {
+  color: #FFF;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 170%;
+}
+
+/*# sourceMappingURL=footer.css.map */

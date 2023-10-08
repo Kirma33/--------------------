@@ -1,9 +1,10 @@
 @import 'fonts';
-@import 'main';
+@import './../scss/main.scss';
 @import 'blocks/about';
 @import 'blocks/hero';
-@import 'blocks/inf';
+@import './../scss/blocks/project.scss';
 @import 'blocks/map';
 @import 'blocks/pdf';
 @import 'blocks/plans';
-@import 'blocks/header';
+@import 'blocks/header.scss';
+@import 'variables'

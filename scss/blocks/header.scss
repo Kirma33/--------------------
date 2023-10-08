@@ -1,11 +1,12 @@
-@import url(/scss/variables.scss);
+@import "./../variables.scss";
+
 .header {
 
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 40px;
-    
+
 
     &__logo {
         font-weight: 700;
@@ -23,12 +24,23 @@
     width: 600px;
 
     &__item {
-        &_button{
-       
+        &_button {
+            color: $gray_white;
             padding: 14px 32px;
-            background: black;
-            
+            background: $primary_blue100 ;
+            text-decoration: none;
+            &_a {
+                text-decoration: none;
+                
+                
+            }
         }
     }
 
+
+}
+.tel{
+    text-decoration: none;
+    color: $gray_white;
+    
 }

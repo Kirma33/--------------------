@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.header__logo {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 170%;
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 600px;
+}
+.nav__item_button {
+  color: #FFF;
+  padding: 14px 32px;
+  background: #2C3878;
+  text-decoration: none;
+}
+.nav__item_button_a {
+  text-decoration: none;
+}
+
+.tel {
+  text-decoration: none;
+  color: #FFF;
+}
+
+/*# sourceMappingURL=header.css.map */

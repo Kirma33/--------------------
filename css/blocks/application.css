@@ -1,0 +1,59 @@
+.application {
+  margin-top: 50px;
+  background-color: #2C3878;
+}
+.application__text {
+  position: relative;
+  top: 50px;
+  margin: 50px;
+}
+.application__text p {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  padding-bottom: 200px;
+}
+.application__form {
+  display: block;
+  position: relative;
+  left: 700px;
+  bottom: 350px;
+  max-width: 500px;
+}
+.application__form__label {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.application__form__input {
+  background: #2C3878;
+  margin-top: 10px;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.application__form__input::placeholder {
+  font-size: 12px;
+  color: #FFF;
+}
+.application__form__label::placeholder {
+  font-size: 12px;
+  color: #FFF;
+}
+.application__form__button {
+  background-color: #FFF;
+  padding: 14px 32px;
+  position: relative;
+  top: 25px;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=application.css.map */

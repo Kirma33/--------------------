@@ -1,0 +1,28 @@
+.plans__coll {
+  display: flex;
+  flex-wrap: wrap;
+}
+.plans__coll__item:nth-child(2) {
+  position: relative;
+  top: 10px;
+}
+.plans__coll__item {
+  margin: 10px;
+  margin-top: 30px;
+}
+.plans__coll__item__img {
+  width: 90%;
+}
+.plans__coll__item__subtext {
+  margin-top: 30px;
+}
+.plans__coll__item__button {
+  color: #FFF;
+  padding: 14px 32px;
+  background: #2C3878;
+  text-decoration: none;
+  position: relative;
+  top: 20px;
+}
+
+/*# sourceMappingURL=plans.css.map */

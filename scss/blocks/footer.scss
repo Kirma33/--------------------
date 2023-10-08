@@ -1,0 +1,31 @@
+@import "./../variables.scss";
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background: $primary_blue100;
+    padding-bottom: 50px;
+
+    
+
+
+    &__logo {
+        color: $gray_white;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Montserrat;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 170%;
+    }
+
+    &__tel {
+        color: $gray_white;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Montserrat;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 170%;
+    }
+}
