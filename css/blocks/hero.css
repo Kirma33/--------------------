@@ -1,19 +1,48 @@
-.hero__logo {
-  width: 747px;
+.hero__logo__h2:after {
+  content: "";
+  display: block;
+  width: 28vw;
+  height: 4px;
+  background: rgb(11, 15, 11);
+  margin-left: 41vw;
+  position: relative;
+  bottom: 21vh;
 }
+
+.hero__logo__plans:after {
+  content: "";
+  display: block;
+  width: 28vw;
+  height: 4px;
+  background: rgb(11, 15, 11);
+  margin-left: 38vw;
+  position: relative;
+  bottom: 12vh;
+}
+
 .hero__logo__h1 {
   color: #333;
   font-family: Montserrat;
-  font-size: 72px;
+  font-size: 8vh;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 654;
   line-height: 140%;
+}
+.hero__logo__h1:after {
+  content: "";
+  display: block;
+  width: 27vw;
+  height: 5px;
+  background: rgb(11, 15, 11);
+  margin-left: 40vw;
+  position: relative;
+  bottom: 27vh;
 }
 .hero__logo__h2 {
   color: #333;
   margin-top: 50px;
   font-family: Montserrat;
-  font-size: 52px;
+  font-size: 6vh;
   font-style: normal;
   font-weight: 700;
   line-height: 140%;
@@ -24,12 +53,12 @@
   flex-direction: column;
   align-items: center;
   position: absolute;
-  right: 20%;
+  right: 17%;
   top: 30%;
 }
 .hero__text__item:nth-child(3) {
   justify-content: start;
-  height: 120px;
+  height: 15.65vh;
 }
 .hero__text__item {
   display: flex;
@@ -58,13 +87,89 @@
   line-height: 160%;
 }
 
+.hero__text_plan {
+  top: 33%;
+}
+
 .hero .hero__img {
   width: 100%;
-  height: 600px;
+  position: relative;
+  top: 10vw;
 }
 
 .hero__subtext {
   margin: 70px;
+}
+
+@media screen and (max-width: 809px) {
+  .hero__logo__h1 {
+    color: #333;
+    font-family: Montserrat;
+    font-size: 4vh;
+    font-style: normal;
+    font-weight: 654;
+    line-height: 140%;
+  }
+  .hero__logo__h1:after {
+    content: "";
+    display: block;
+    width: 27vw;
+    height: 5px;
+    background: rgb(11, 15, 11);
+  }
+  .hero__logo__h2 {
+    color: #333;
+    margin-top: 50px;
+    font-family: Montserrat;
+    font-size: 3vh;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+  }
+  .hero__logo__h2:after {
+    content: "";
+    display: block;
+    width: 28vw;
+    height: 4px;
+    background: rgb(11, 15, 11);
+    margin-left: 60vw;
+    position: relative;
+    bottom: 10.5vh;
+  }
+  .hero__logo__plans::after {
+    margin-left: 55vw;
+    position: relative;
+    bottom: 6.4vh;
+  }
+  .hero__text {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 0vw;
+  }
+  .hero .hero__image__img {
+    width: 100%;
+  }
+  #hero_p {
+    position: relative;
+    top: 4vh;
+  }
+  #span {
+    position: relative;
+    top: 4vh;
+  }
+  .hero__text_loco {
+    position: absolute;
+    top: 24.7%;
+    left: 64%;
+    right: 0%;
+  }
+  .hero__text_plan {
+    position: absolute;
+    top: 20.5%;
+    left: 64%;
+    right: 0%;
+  }
 }
 
 /*# sourceMappingURL=hero.css.map */

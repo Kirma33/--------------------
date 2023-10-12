@@ -53,6 +53,7 @@
             font-style: normal;
             font-weight: 400;
             line-height: 160%;
+            color: $gray_white;
         }
 
         &__input::placeholder {
@@ -73,5 +74,17 @@
             
             text-decoration: none;
         }
+    }
+}
+
+
+@media screen and (max-width: 809px) {
+
+    .application__form {
+        display: block;
+        position: relative;
+        left: 5vw;
+        bottom:  14vh;
+        max-width: 500px;
     }
 }

@@ -3,11 +3,15 @@
   align-items: center;
   justify-content: space-between;
   margin-top: 40px;
+  text-decoration: none;
 }
 .header__logo {
+  list-style-type: none;
   font-weight: 700;
   font-size: 32px;
   line-height: 170%;
+  text-decoration: none;
+  color: black;
 }
 
 .nav {
@@ -30,6 +34,54 @@
 .tel {
   text-decoration: none;
   color: #FFF;
+}
+
+@media screen and (max-width: 809px) {
+  #top {
+    display: none;
+  }
+  .none {
+    display: none;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    margin-top: 2vh;
+    margin-left: 0.5vw;
+    text-decoration: none;
+  }
+  .header__logo {
+    list-style-type: none;
+    font-weight: 700;
+    font-size: 3vh;
+    line-height: 170%;
+    text-decoration: none;
+    color: black;
+  }
+  .nav {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    width: 5vw;
+  }
+  .nav__item .a {
+    font-size: 1vh;
+  }
+  .nav__item {
+    margin-left: 3vw;
+  }
+  .nav__item_button {
+    color: #FFF;
+    padding: 1.1vw 4vw 1.1vw;
+    font-size: 1.2vh;
+    background: #2C3878;
+    text-decoration: none;
+  }
+  .nav__item_button_a {
+    text-decoration: none;
+  }
 }
 
 /*# sourceMappingURL=header.css.map */

@@ -13,3 +13,13 @@
         bottom: 110px;
     }
 }
+
+
+@media screen and (max-width: 809px) {
+
+    .detail__img {
+        margin-left: 40vw;
+        position: relative;
+        top: 1vh;
+    }
+}

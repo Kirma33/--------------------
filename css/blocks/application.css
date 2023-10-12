@@ -39,6 +39,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 160%;
+  color: #FFF;
 }
 .application__form__input::placeholder {
   font-size: 12px;
@@ -54,6 +55,16 @@
   position: relative;
   top: 25px;
   text-decoration: none;
+}
+
+@media screen and (max-width: 809px) {
+  .application__form {
+    display: block;
+    position: relative;
+    left: 5vw;
+    bottom: 14vh;
+    max-width: 500px;
+  }
 }
 
 /*# sourceMappingURL=application.css.map */

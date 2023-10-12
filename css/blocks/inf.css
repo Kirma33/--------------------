@@ -44,4 +44,31 @@
   grid-column: 4/5;
 }
 
+@media screen and (max-width: 809px) {
+  .inf__profit {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 300px 300px 300px;
+    grid-gap: 5px;
+    margin-left: 5vw;
+    margin-top: 5vw;
+  }
+  .inf__profit__item:nth-child(4) {
+    grid-column: 1/2;
+    grid-row: 3/5;
+  }
+  .inf__profit__item:nth-child(5) {
+    grid-column: 2/3;
+  }
+  .inf__profit__item:nth-child(6) {
+    grid-column: 2/3;
+    position: relative;
+    top: 5px;
+  }
+  #img6 {
+    height: 29vh;
+    width: 36vw;
+  }
+}
+
 /*# sourceMappingURL=inf.css.map */

@@ -4,7 +4,7 @@
 .plans__coll {
     display: flex;
     flex-wrap: wrap;
-    
+
     &__item:nth-child(2) {
         position: relative;
         top: 10px;
@@ -32,4 +32,11 @@
         }
     }
 
+}
+
+@media screen and (max-width: 809px) {
+    .plans__coll {
+    display: grid;
+    grid-template-columns: 35fr 35fr;
+    }
 }

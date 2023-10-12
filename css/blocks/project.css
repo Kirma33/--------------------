@@ -21,6 +21,7 @@ h3:after {
   margin-left: 100px;
   position: relative;
   bottom: 10.5px;
+  left: 50px;
 }
 
 span {
@@ -92,6 +93,18 @@ p {
 .project__prokshino_2 {
   width: 100%;
   margin-top: 50px;
+}
+
+@media screen and (max-width: 809px) {
+  .project__profit {
+    display: flex;
+    flex-direction: column;
+  }
+  .project__text__but {
+    margin-top: 50px;
+    margin-left: 0%;
+    margin-bottom: 60px;
+  }
 }
 
 /*# sourceMappingURL=project.css.map */
