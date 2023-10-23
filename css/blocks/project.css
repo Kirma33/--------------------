@@ -80,8 +80,13 @@ h3:after {
 
 @media screen and (max-width: 811px) {
   .project__profit {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .project__text__but {
     margin-top: 50px;
@@ -130,5 +135,3 @@ h3:after {
     font-size: 2vh;
   }
 }
-
-/*# sourceMappingURL=project.css.map */

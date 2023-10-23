@@ -1,12 +1,16 @@
 .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   background: #2C3878;
   padding-bottom: 50px;
 }
 .footer__logo {
   color: #FFF;
-  font-feature-settings: "clig" off, "liga" off;
+  -webkit-font-feature-settings: "clig" off, "liga" off;
+          font-feature-settings: "clig" off, "liga" off;
   font-family: Montserrat;
   font-size: 32px;
   font-style: normal;
@@ -15,7 +19,8 @@
 }
 .footer__tel {
   color: #FFF;
-  font-feature-settings: "clig" off, "liga" off;
+  -webkit-font-feature-settings: "clig" off, "liga" off;
+          font-feature-settings: "clig" off, "liga" off;
   font-family: Montserrat;
   font-size: 32px;
   font-style: normal;
@@ -35,5 +40,3 @@
     font-size: 3vh;
   }
 }
-
-/*# sourceMappingURL=footer.css.map */

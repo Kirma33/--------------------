@@ -77,10 +77,17 @@
     margin-bottom: -50vh;
   }
   .inf__profit {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
   }
   .inf__profit__item:nth-child(2) {
     position: relative;
@@ -107,5 +114,3 @@
     margin-left: 1px;
   }
 }
-
-/*# sourceMappingURL=inf.css.map */

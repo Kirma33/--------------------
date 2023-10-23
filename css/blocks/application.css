@@ -41,8 +41,40 @@
   line-height: 160%;
   color: #FFF;
 }
+.application__form__input::-webkit-input-placeholder {
+  font-size: 2vh;
+  color: #FFF;
+}
+.application__form__input::-moz-placeholder {
+  font-size: 2vh;
+  color: #FFF;
+}
+.application__form__input:-ms-input-placeholder {
+  font-size: 2vh;
+  color: #FFF;
+}
+.application__form__input::-ms-input-placeholder {
+  font-size: 2vh;
+  color: #FFF;
+}
 .application__form__input::placeholder {
   font-size: 2vh;
+  color: #FFF;
+}
+.application__form__label::-webkit-input-placeholder {
+  font-size: 4vh;
+  color: #FFF;
+}
+.application__form__label::-moz-placeholder {
+  font-size: 4vh;
+  color: #FFF;
+}
+.application__form__label:-ms-input-placeholder {
+  font-size: 4vh;
+  color: #FFF;
+}
+.application__form__label::-ms-input-placeholder {
+  font-size: 4vh;
   color: #FFF;
 }
 .application__form__label::placeholder {
@@ -130,5 +162,3 @@
     width: 65vw;
   }
 }
-
-/*# sourceMappingURL=application.css.map */

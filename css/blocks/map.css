@@ -1,6 +1,7 @@
 .plans__coll {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
-
-/*# sourceMappingURL=map.css.map */
