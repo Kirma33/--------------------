@@ -2,8 +2,8 @@
 
 
 .plans__coll {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 35fr 35fr 35fr;
 
     &__item:nth-child(2) {
         position: relative;
@@ -34,9 +34,47 @@
 
 }
 
-@media screen and (max-width: 809px) {
+@media screen and (max-width: 811px) {
     .plans__coll {
     display: grid;
     grid-template-columns: 35fr 35fr;
+    grid-row-gap:5vh
+    }
+
+
+    .plans__coll__item__button {
+        padding: 1.8vh 3vh;
+        font-size: 1.5vh;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+
+    .plans__coll {
+        display: block;
+         
+
+        &__item {
+            
+        margin-top: 10vh;
+        margin-bottom: 5vh;
+
+
+
+        &__img {
+            width: 100%;
+        }
+
+
+        &__button {
+            color: $gray_white;
+            padding: 14px 32px;
+            background: $primary_blue100 ;
+            text-decoration: none;
+            position: relative;
+            top: 20px;
+        }
+        }
     }
 }

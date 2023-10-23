@@ -1,5 +1,5 @@
 .inf {
-  padding-bottom: 20px;
+  padding-bottom: 1vw;
 }
 
 .inf__profit {
@@ -7,6 +7,7 @@
   grid-template-columns: 300px 300px 300px 300px;
   grid-template-rows: 300px 300px;
   grid-gap: 5px;
+  position: relative;
 }
 .inf__profit__item {
   overflow: hidden;
@@ -20,6 +21,7 @@
   line-height: 120%;
   position: relative;
   bottom: 110px;
+  margin-left: vw;
 }
 .inf__profit__item:nth-child(1) {
   grid-column: 1/3;
@@ -44,13 +46,13 @@
   grid-column: 4/5;
 }
 
-@media screen and (max-width: 809px) {
+@media screen and (max-width: 811px) {
   .inf__profit {
     display: grid;
     grid-template-columns: 300px 300px;
     grid-template-rows: 300px 300px 300px;
     grid-gap: 5px;
-    margin-left: 5vw;
+    margin-left: 8vw;
     margin-top: 5vw;
   }
   .inf__profit__item:nth-child(4) {
@@ -68,6 +70,41 @@
   #img6 {
     height: 29vh;
     width: 36vw;
+  }
+}
+@media screen and (max-width: 400px) {
+  .inf {
+    margin-bottom: -50vh;
+  }
+  .inf__profit {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+  }
+  .inf__profit__item:nth-child(2) {
+    position: relative;
+    bottom: 4vh;
+  }
+  .inf__profit__item:nth-child(3) {
+    position: relative;
+    bottom: 14vh;
+  }
+  .inf__profit__item:nth-child(4) {
+    position: relative;
+    bottom: 18vh;
+  }
+  .inf__profit__item:nth-child(5) {
+    position: relative;
+    bottom: 25vh;
+  }
+  .inf__profit__item:nth-child(6) {
+    position: relative;
+    top: -28vh;
+  }
+  .inf__profit__item {
+    margin-top: 0.1vh;
+    margin-left: 1px;
   }
 }
 

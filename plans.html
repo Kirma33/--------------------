@@ -24,32 +24,35 @@
 
 <body>
     <div class="wrapper">
-        <header>
-            <div class="container">
-                <div class="header">
-                    <div class="header__logo"><a href="/" class="header__logo">БК "Ясенево"</a></div>
-                    <nav>
-                        <ul class="nav">
-                            <li class="nav__item none"><a href="/index.html">Главная</a></li>
-                            <li class="nav__item"><a href="/location.html">Расположение</a></li>
-                            <li class="nav__item"><a href="/plans.html">Планировки</a></li>
-                            <li class="nav__item nav__item_button"><a href="tel:+74952214022" class="tel">+7(495)221-40-22</a></li>
-                            
-                        </ul>
-                    </nav>
-                </div>
+        <div class="container">
+
+            <div class="header headheader">
+                <div class="header__logo"><a href="/" class="header__logo">БК"Ясенево"</a></div>
+                <nav>
+                    <ul class="nav">
+                        <li class="nav__item " id="top"><a href="/index.html" class="nav__item__a">Главная</a></li>
+                        <li class="nav__item "><a href="/location.html" class="nav__item__a">Расположение</a></li>
+                        <li class="nav__item "><a href="/plans.html" class="nav__item__a">Планировки</a></li>
+                        <li class="nav__item_button">
+                            <a href="tel:+74952214022" class="tel">
+                                <span class="nav__item__span">+7(495)221-40-22</span>
+                                <img src="/assets/images/header/tel.png" alt="" class="nav__item__image">
+                            </a> 
+                        </li>
+                    </ul>
+                </nav>
             </div>
-        </header>
+        </div>
         <section class="hero__container container">
+            <div class="hero__logo">
+                <h2 class="hero__logo__plans" id="logo_plans">Выберайте планировку <br>для любого бизнеса</h2>
+            </div>
             <div class="hero">
-                <div class="hero__logo">
-                    <h2 class="hero__logo__h2 hero__logo__plans">Выберайте планировку <br>для любого бизнеса</h2>
-                </div>
                 <div class="hero__text hero__text_plan">
 
-                    <div class="hero__text__item">
-                        <span class="hero__text__item__span"> от 60 м<sup><small>2</small></sup></span>
-                        <p class="hero__text__item__p">помещения под офисы</p>
+                    <div class="hero__text__item hero__text_plan__item">
+                        <span class="hero__text__item__span" id="span60" > от 60 м<sup><small>2</small></sup></span>
+                        <p class="hero__text__item__p" id="span60_p">помещения под офисы</p>
                     </div>
                 </div>
                 <div class="hero_image ">
@@ -156,30 +159,31 @@
 
         </section>
 
-        <section class="application container">
-            <div class="application__text">
-                <p class="">Подберем лучшее помещение<br> под ваши задачи, основываясь<br> на аналитике бизнес-среды
-                    в<br>
-                    локации.</p>
-            </div>
-
-
-
-            <div class="application__form">
-                <label for="name" class="application__form__label"></label>
-                <input type="text" name="name" id="name" placeholder="Ваше имя" required
-                    class="application__form__input">
-                <label for="tel" class="application__form__label"></label>
-                <input id="tel" type="tel" placeholder="+79999999999" required class="application__form__input">
-                <a href="" class="application__form__button">Получить консультацию</a>
-            </div>
-
-        </section>
-        <footer class="footer container">
-            <div class="footer__logo">БК "Ясенево"</div>
+        <section class="application  ">
+            <div class="container application__cont">
+      
+              <div class="application__text ">
+                <p class="">Подберем лучшее помещение<br> под ваши задачи, основываясь<br> на аналитике бизнес-среды в<br>
+                  локации.</p>
+                </div>
+                
+                
+                <div class="application__form">
+                  <label for="name" class="application__form__label"></label>
+                  <input type="text" name="name" id="name" placeholder="Ваше имя" required class="application__form__input">
+                  <label for="tel" class="application__form__label"></label>
+                  <input id="tel" type="tel" placeholder="+79999999999" required class="application__form__input">
+                  <a href="" class="application__form__button">Получить консультацию</a>
+                </div>
+                
+              </div>
+          </section>
+        <footer class="footer ">
+            <div class="footer__logo">БК"Ясенево"</div>
             <div class="footer__tel"> +7 (495) 221-40-22</div>
         </footer>
     </div>
 
+    
 
 </html>

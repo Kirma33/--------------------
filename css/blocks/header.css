@@ -2,13 +2,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 40px;
+  margin: 3vw;
   text-decoration: none;
 }
 .header__logo {
   list-style-type: none;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 2vw;
   line-height: 170%;
   text-decoration: none;
   color: black;
@@ -19,7 +19,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 600px;
+  width: 40vw;
 }
 .nav__item_button {
   color: #FFF;
@@ -30,13 +30,46 @@
 .nav__item_button_a {
   text-decoration: none;
 }
+.nav__item__span {
+  font-size: 2vh;
+  color: #FFF;
+}
+.nav__item__image {
+  display: none;
+}
+
+.header_tel {
+  display: none;
+}
 
 .tel {
   text-decoration: none;
   color: #FFF;
 }
 
-@media screen and (max-width: 809px) {
+@media screen and (max-width: 1441px) {
+  .header {
+    position: relative;
+    right: 2vw;
+  }
+  .nav {
+    position: relative;
+    right: 5vw;
+  }
+  .nav__item {
+    margin-left: 2vw;
+    margin-right: 2vw;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .nav__item:first-child {
+    display: none;
+  }
+}
+@media screen and (max-width: 811px) {
+  .headheader {
+    margin-left: 3vw;
+  }
   #top {
     display: none;
   }
@@ -47,14 +80,14 @@
     display: flex;
     align-items: center;
     justify-content: stretch;
-    margin-top: 2vh;
-    margin-left: 0.5vw;
+    margin-top: 4vh;
+    margin-left: 0vw;
     text-decoration: none;
   }
   .header__logo {
     list-style-type: none;
     font-weight: 700;
-    font-size: 3vh;
+    font-size: 1.4rem;
     line-height: 170%;
     text-decoration: none;
     color: black;
@@ -64,23 +97,54 @@
     display: flex;
     align-items: center;
     justify-content: stretch;
-    width: 5vw;
-  }
-  .nav__item .a {
-    font-size: 1vh;
+    width: 60vw;
+    position: relative;
+    right: 0vw;
   }
   .nav__item {
-    margin-left: 3vw;
+    margin-left: 1vw;
+  }
+  .nav__item__a {
+    font-size: 1.5vh;
   }
   .nav__item_button {
     color: #FFF;
-    padding: 1.1vw 4vw 1.1vw;
+    padding: 0vw 2vw 1vw;
     font-size: 1.2vh;
     background: #2C3878;
     text-decoration: none;
   }
   .nav__item_button_a {
     text-decoration: none;
+  }
+  .nav__item__span {
+    font-size: 1.5vh;
+  }
+}
+@media screen and (max-width: 400px) {
+  .header__logo {
+    display: flex;
+    flex-direction: row;
+    font-size: 3vh;
+    justify-content: start;
+  }
+  .nav {
+    margin-left: 20vw;
+  }
+  .nav__item:nth-child(2) {
+    display: none;
+  }
+  .nav__item:nth-child(3) {
+    display: none;
+  }
+  .nav__item__span {
+    display: none;
+  }
+  .nav__item__image {
+    display: block;
+    width: 10vw;
+    height: 4vh;
+    padding: 0.5vh;
   }
 }
 

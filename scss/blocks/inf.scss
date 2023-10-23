@@ -1,5 +1,5 @@
 .inf {
-    padding-bottom: 20px;
+    padding-bottom: 1vw;
 }
 
 .inf__profit {
@@ -7,6 +7,7 @@
     grid-template-columns: 300px 300px 300px 300px;
     grid-template-rows: 300px 300px;
     grid-gap: 5px;
+    position: relative;
 
 
 
@@ -27,6 +28,7 @@
             line-height: 120%;
             position: relative;
             bottom: 110px;
+            margin-left: vw;
         }
     }
 
@@ -61,7 +63,17 @@
     }
 }
 
-@media screen and (max-width: 809px) {
+
+@media screen and (max-width: 1280px) {
+
+    .inf__profit {
+        &__item {}
+    }
+
+
+}
+
+@media screen and (max-width: 811px) {
 
 
     .inf__profit {
@@ -70,7 +82,7 @@
         grid-template-rows: 300px 300px 300px;
         grid-gap: 5px;
 
-        margin-left: 5vw;
+        margin-left: 8vw;
         margin-top: 5vw;
 
         &__item:nth-child(4) {
@@ -80,17 +92,17 @@
 
         &__item:nth-child(5) {
             grid-column: 2/3;
-    
+
         }
-        
+
         &__item:nth-child(6) {
             grid-column: 2/3;
             position: relative;
             top: 5px;
-            
-            
+
+
         }
-       
+
     }
 
     #img6 {
@@ -98,4 +110,53 @@
         width: 36vw;
     }
 
+}
+
+
+@media screen and (max-width: 400px) {
+
+    .inf {
+        margin-bottom: -50vh;
+        &__profit {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          align-content: flex-start;
+           
+
+          &__item:nth-child(2){
+            position: relative;
+            bottom: 4vh;
+          }
+
+          &__item:nth-child(3){
+            position: relative;
+            bottom: 14vh;
+          }
+
+          
+          &__item:nth-child(4){
+            position: relative;
+            bottom:18vh;
+          }
+
+          &__item:nth-child(5){
+            position: relative;
+            bottom: 25vh;
+          }
+
+          &__item:nth-child(6){
+            position: relative;
+            top: -28vh;
+
+          }
+
+
+            &__item {
+                margin-top: 0.1vh;
+                margin-left: 1px;
+            }
+
+        }
+    }
 }

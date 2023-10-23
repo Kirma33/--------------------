@@ -3,7 +3,8 @@
 .project {
     padding-bottom: 50px;
 
-    
+
+
 }
 
 h3 {
@@ -33,23 +34,9 @@ h3 {
 
 
 
-span {
-    color: var(--grayscale-50, #333);
-    font-family: Montserrat;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 140%;
-}
 
-p {
-    color: var(--grayscale-10, #9C9C9C);
-    font-family: Montserrat;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 160%;
-}
+
+
 
 .project__profit {
     display: grid;
@@ -87,13 +74,14 @@ p {
     margin-bottom: 100px;
 }
 
-.project__text__but{
+.project__text__but {
     margin-top: 50px;
     margin-left: 40%;
     margin-bottom: 60px;
 
 
 }
+
 .button-2 {
     color: $gray_white;
     padding: 14px 32px;
@@ -105,17 +93,19 @@ p {
 
 .project__prokshino {
     width: 100%;
+    margin: 0 auto;
+
 
 }
 
 .project__prokshino_2 {
     width: 100%;
     margin-top: 50px;
-    
+
 }
 
 
-@media screen and (max-width: 809px) {
+@media screen and (max-width: 811px) {
 
 
     .project__profit {
@@ -123,11 +113,75 @@ p {
         flex-direction: column;
     }
 
-    .project__text__but{
+    .project__text__but {
         margin-top: 50px;
         margin-left: 0%;
         margin-bottom: 60px;
-    
-    
+
+
+    }
+
+    .button-2 {
+        color: $gray_white;
+                font-family: Montserrat;
+                padding: 1vh 2.4vh;
+               
+                text-decoration: none;
+                margin: 0.9vw;
+                margin-left: 0.1vw;
+                font-size: 2vh;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+
+    .project__text .span {
+        font-size: 1vh;
+    }
+
+
+    h3 {
+        &:after {
+            content: '';
+            display: block;
+            width: 45vw;
+
+            margin-left: 11vh;
+
+        }
+    }
+
+
+
+    .project__profit {
+
+        &__item {
+            position: relative;
+            right: 11.5vw;;
+        
+
+            &__text {
+                position: relative;
+                left: 30vw;
+
+                font-size: 1.3vh;
+            }
+        }
+    }
+
+    .project__prokshino {
+        height: 25vh;
+    }
+
+    .button-2 {
+        color: $gray_white;
+                font-family: Montserrat;
+                padding: 1vh 3vh;
+               
+                text-decoration: none;
+                margin: 0.9vw;
+                margin-left: 0.1vw;
+                font-size: 2vh;
     }
 }

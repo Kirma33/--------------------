@@ -15,11 +15,29 @@
 }
 
 
-@media screen and (max-width: 809px) {
+@media screen and (max-width: 811px) {
 
     .detail__img {
         margin-left: 40vw;
         position: relative;
         top: 1vh;
     }
+}
+
+
+@media screen and (max-width: 400px) {
+
+    .detail {
+        margin-top: 20vh;
+        &__button {
+            margin-top: 20vh;
+        }
+
+        &__img {
+            margin-top: 10vh;
+            margin-left:5vw;
+            
+        }
+    }
+
 }

@@ -1,11 +1,11 @@
 .application {
-  margin-top: 50px;
+  margin-top: 4vh;
   background-color: #2C3878;
 }
 .application__text {
   position: relative;
-  top: 50px;
-  margin: 50px;
+  top: 8.4vh;
+  margin: 4vw;
 }
 .application__text p {
   color: #FFF;
@@ -19,9 +19,9 @@
 .application__form {
   display: block;
   position: relative;
-  left: 700px;
+  left: 50vw;
   bottom: 350px;
-  max-width: 500px;
+  max-width: 20vw;
 }
 .application__form__label {
   color: #FFF;
@@ -42,28 +42,92 @@
   color: #FFF;
 }
 .application__form__input::placeholder {
-  font-size: 12px;
+  font-size: 2vh;
   color: #FFF;
 }
 .application__form__label::placeholder {
-  font-size: 12px;
+  font-size: 4vh;
   color: #FFF;
 }
 .application__form__button {
   background-color: #FFF;
-  padding: 14px 32px;
+  padding: 1vw 32px;
   position: relative;
-  top: 25px;
+  top: 3vh;
+  font-size: 2vh;
   text-decoration: none;
 }
 
-@media screen and (max-width: 809px) {
+@media screen and (max-width: 1441px) {
+  .application__form__button {
+    font-size: 1.4vw;
+    padding: 1vw 1px;
+  }
+  .application__text p {
+    position: relative;
+    left: 6vw;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .application__cont {
+    position: relative;
+    top: 8vh;
+  }
+  .application__form {
+    position: relative;
+    bottom: 5 vh;
+  }
+  .application__form__button {
+    font-size: 1.4vw;
+    padding: 1vw 1px;
+  }
+  .application__text {
+    position: relative;
+    right: 5vw;
+    top: 5vh;
+  }
+}
+@media screen and (max-width: 811px) {
+  .application__cont {
+    top: 1vh;
+  }
   .application__form {
     display: block;
     position: relative;
     left: 5vw;
-    bottom: 14vh;
-    max-width: 500px;
+    bottom: 10vh;
+    max-width: 40vw;
+  }
+  .application__form__button {
+    font-size: 1.9vw;
+    padding: 2vw 5vw;
+  }
+}
+@media screen and (max-width: 400px) {
+  .application__text p {
+    left: 7vw;
+    font-size: 2.4vh;
+  }
+  .application__form {
+    position: relative;
+    left: 0vw;
+    bottom: 12vh;
+  }
+  .application__form__label {
+    width: 88vw;
+    font-size: 3vh;
+  }
+  .application__form__input {
+    width: 88vw;
+    font-size: 3vh;
+  }
+  .application__form__button {
+    display: block;
+    font-family: Montserrat;
+    text-align: center;
+    padding: 1.5vh 3vh;
+    font-size: 1.3vh;
+    width: 65vw;
   }
 }
 

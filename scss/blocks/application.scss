@@ -2,14 +2,14 @@
 
 .application {
 
-    margin-top: 50px;
+    margin-top: 4vh;
     background-color: $primary_blue100;
 
 
     &__text {
         position: relative;
-        top: 50px;
-        margin: 50px;
+        top: 8.4vh;
+        margin: 4vw;
     }
 
     &__text p {
@@ -27,10 +27,10 @@
     &__form {
         display: block;
         position: relative;
-        left: 700px;
-        bottom:  350px;
-        max-width: 500px;
-       
+        left: 50vw;
+        bottom: 350px;
+        max-width: 20vw;
+
 
 
 
@@ -57,34 +57,136 @@
         }
 
         &__input::placeholder {
-            font-size: 12px;
+            font-size: 2vh;
             color: $gray_white;
         }
 
         &__label::placeholder {
-            font-size: 12px;
+            font-size: 4vh;
             color: $gray_white;
         }
 
         &__button {
             background-color: $gray_white;
-            padding: 14px 32px;
+            padding: 1vw 32px;
             position: relative;
-            top: 25px;
-            
+            top: 3vh;
+            font-size: 2vh;
+
             text-decoration: none;
         }
     }
 }
 
 
-@media screen and (max-width: 809px) {
+@media screen and (max-width: 1441px) {
+    .application {
+        &__form {
+
+            &__button {
+                font-size: 1.4vw;
+                padding: 1vw 1px;
+
+            }
+        }
+
+        &__text p {
+            position: relative;
+            left: 6vw;
+
+
+        }
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .application {
+
+        &__cont {
+            position: relative;
+            top: 8vh;
+        }
+
+        &__form {
+            position: relative;
+            bottom: 5 vh;
+
+            &__button {
+                font-size: 1.4vw;
+                padding: 1vw 1px;
+
+            }
+        }
+
+        &__text {
+            position: relative;
+            right: 5vw;
+            top: 5vh;
+
+
+
+        }
+    }
+}
+
+@media screen and (max-width: 811px) {
+
+    .application {
+
+        &__cont {
+            top: 1vh;
+        }
+
+        &__form {
+            display: block;
+            position: relative;
+            left: 5vw;
+            bottom: 10vh;
+            max-width: 40vw;
+
+
+            &__button {
+                font-size: 1.9vw;
+                padding: 2vw 5vw;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+
+
+    .application__text p {
+        left: 7vw;
+        font-size: 2.4vh;
+
+    }
 
     .application__form {
-        display: block;
         position: relative;
-        left: 5vw;
-        bottom:  14vh;
-        max-width: 500px;
+        left: 0vw;
+        bottom: 12vh;
+
+        &__label {
+            width: 88vw;
+            font-size: 3vh;
+
+        }
+
+        &__input {
+            width: 88vw;
+            font-size: 3vh;
+        }
+
+        &__button {
+            display: block;
+            font-family: Montserrat;
+            text-align: center;
+            padding: 1.5vh 3vh;
+            font-size: 1.3vh;
+            width: 65vw;
+
+        }
     }
 }

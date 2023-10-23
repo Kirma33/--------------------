@@ -23,4 +23,17 @@
   line-height: 170%;
 }
 
+@media screen and (max-width: 400px) {
+  .footer {
+    padding: 3vh;
+    display: block;
+  }
+  .footer__logo {
+    font-size: 3vh;
+  }
+  .footer__tel {
+    font-size: 3vh;
+  }
+}
+
 /*# sourceMappingURL=footer.css.map */
