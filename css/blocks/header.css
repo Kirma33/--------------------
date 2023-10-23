@@ -129,7 +129,7 @@
     justify-content: start;
   }
   .nav {
-    margin-left: 20vw;
+    margin-left: 32vw;
   }
   .nav__item:nth-child(2) {
     display: none;

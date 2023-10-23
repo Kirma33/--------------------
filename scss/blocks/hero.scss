@@ -601,7 +601,7 @@
                     font-size: 2vh;
                     margin: 3vh;
                     padding: 0.5vh;
-                    left: -0.8vh;
+                    left: 1vw;
                     bottom: 0vh;
                     white-space: nowrap;
                     
@@ -615,10 +615,10 @@
             }
         }
         .one-minets {
-          left: 0vh;
+          left: 1.8vh;
         }
         #span{
-            left: 0vh;
+            left: 3vw;
             top: 1.5vh;
             
         }
@@ -627,23 +627,23 @@
         }
 
         #one_loco {
-            font-size: 2vh;
-            left: -4vw;
+            font-size: 2.5vh;
+            left: -1vw;
             top: 2vh;
             right: 2vw;
         }
         #one_loco_p {
-            font-size: 0.8vh;
+            font-size: 1vh;
             margin-top: 0vh;
         }
 
         #span60{
             font-size: 2vh;
-            left: -7vw;
+            left: -2vw;
             top: 2vh;
         }
         #span60_p {
-            font-size: 0.8vh;
+            font-size: 0.9vh;
             left: 0vw;
         }
 
@@ -666,12 +666,12 @@
             &__item {
                 color: $gray_white;
                 font-family: Montserrat;
-                padding: 1vh 2vh;
+                padding: 2vh 2vh;
                 background: $primary_blue100 ;
                 text-decoration: none;
                 margin: 0.9vw;
                 margin-left: 0.1vw;
-                font-size: 1.8vh;
+                font-size: 2.5vh;
 
 
 

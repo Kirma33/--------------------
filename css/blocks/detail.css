@@ -26,4 +26,10 @@
     margin-top: 10vh;
     margin-left: 5vw;
   }
+  .detail__button {
+    font-size: 2vh;
+    padding: 2vh 3vh;
+  }
 }
+
+/*# sourceMappingURL=detail.css.map */

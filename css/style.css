@@ -31,8 +31,7 @@
   padding: 0;
   font-family: montserrat, sans-serif;
   font-weight: normal;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 a {
@@ -150,16 +149,9 @@ p {
   width: 100%;
 }
 .hero__text {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   position: absolute;
   right: 20%;
   top: 40%;
@@ -244,16 +236,9 @@ p {
     margin-top: 5vh;
   }
   .hero__text {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
+    align-items: center;
     position: absolute;
     top: 30%;
   }
@@ -430,13 +415,8 @@ p {
   }
   .hero__text {
     all: initial;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
     position: relative;
   }
   .hero__text__item {
@@ -539,7 +519,7 @@ p {
     font-size: 2vh;
     margin: 3vh;
     padding: 0.5vh;
-    left: -0.8vh;
+    left: 1vw;
     bottom: 0vh;
     white-space: nowrap;
   }
@@ -547,32 +527,32 @@ p {
     font-size: 1vh;
   }
   .hero .one-minets {
-    left: 0vh;
+    left: 1.8vh;
   }
   .hero #span {
-    left: 0vh;
+    left: 3vw;
     top: 1.5vh;
   }
   .hero #m60 {
     top: 1vh;
   }
   .hero #one_loco {
-    font-size: 2vh;
-    left: -4vw;
+    font-size: 2.5vh;
+    left: -1vw;
     top: 2vh;
     right: 2vw;
   }
   .hero #one_loco_p {
-    font-size: 0.8vh;
+    font-size: 1vh;
     margin-top: 0vh;
   }
   .hero #span60 {
     font-size: 2vh;
-    left: -7vw;
+    left: -2vw;
     top: 2vh;
   }
   .hero #span60_p {
-    font-size: 0.8vh;
+    font-size: 0.9vh;
     left: 0vw;
   }
   .hero .hero__text_loco__item .span {
@@ -580,28 +560,20 @@ p {
   }
   .hero__nav {
     margin-top: 1vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: end;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: end;
   }
   .hero__nav__item {
     color: #FFF;
     font-family: Montserrat;
-    padding: 1vh 2vh;
+    padding: 2vh 2vh;
     background: #2C3878;
     text-decoration: none;
     margin: 0.9vw;
     margin-left: 0.1vw;
-    font-size: 1.8vh;
+    font-size: 2.5vh;
   }
   .hero__nav__item:first-child {
     position: relative;
@@ -701,13 +673,8 @@ h3:after {
 
 @media screen and (max-width: 811px) {
   .project__profit {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .project__text__but {
     margin-top: 50px;
@@ -741,7 +708,7 @@ h3:after {
   .project__profit__item__text {
     position: relative;
     left: 30vw;
-    font-size: 1.3vh;
+    font-size: 1.5vh;
   }
   .project__prokshino {
     height: 25vh;
@@ -757,11 +724,8 @@ h3:after {
   }
 }
 .plans__coll {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .plans__coll {
@@ -798,8 +762,8 @@ h3:after {
     grid-row-gap: 5vh;
   }
   .plans__coll__item__button {
-    padding: 1.8vh 3vh;
-    font-size: 1.5vh;
+    padding: 2vh 3vh;
+    font-size: 2vh;
   }
 }
 @media screen and (max-width: 400px) {
@@ -823,15 +787,9 @@ h3:after {
   }
 }
 .header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
   margin: 3vw;
   text-decoration: none;
 }
@@ -846,15 +804,9 @@ h3:after {
 
 .nav {
   list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
   width: 40vw;
 }
 .nav__item_button {
@@ -913,15 +865,9 @@ h3:after {
     display: none;
   }
   .header {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: stretch;
-        -ms-flex-pack: stretch;
-            justify-content: stretch;
+    align-items: center;
+    justify-content: stretch;
     margin-top: 4vh;
     margin-left: 0vw;
     text-decoration: none;
@@ -936,15 +882,9 @@ h3:after {
   }
   .nav {
     list-style: none;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: stretch;
-        -ms-flex-pack: stretch;
-            justify-content: stretch;
+    align-items: center;
+    justify-content: stretch;
     width: 60vw;
     position: relative;
     right: 0vw;
@@ -971,20 +911,13 @@ h3:after {
 }
 @media screen and (max-width: 400px) {
   .header__logo {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
     font-size: 3vh;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: start;
+    justify-content: start;
   }
   .nav {
-    margin-left: 20vw;
+    margin-left: 32vw;
   }
   .nav__item:nth-child(2) {
     display: none;
@@ -1002,3 +935,5 @@ h3:after {
     padding: 0.5vh;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
