@@ -78,15 +78,10 @@ h3:after {
   margin-top: 50px;
 }
 
-@media screen and (max-width: 811px) {
+@media screen and (max-width: 900px) {
   .project__profit {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .project__text__but {
     margin-top: 50px;
@@ -103,7 +98,7 @@ h3:after {
     font-size: 2vh;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .project__text .span {
     font-size: 1vh;
   }
@@ -111,7 +106,7 @@ h3:after {
     content: "";
     display: block;
     width: 45vw;
-    margin-left: 11vh;
+    margin-left: 15vh;
   }
   .project__profit__item {
     position: relative;
@@ -135,3 +130,5 @@ h3:after {
     font-size: 2vh;
   }
 }
+
+/*# sourceMappingURL=project.css.map */

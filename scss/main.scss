@@ -46,11 +46,21 @@ p {
     overflow: hidden;
 
 }
+@media screen and (max-width: 1401px){
+    .container {
+        width: 90vw;
 
+
+
+    }
+}
 
 @media screen and (max-width: 1280px) {
 
-
+    span{
+        font-size: 4vh;
+        
+    }
 
     .container {
         width: 90%;
@@ -61,7 +71,10 @@ p {
 
 }
 
-@media screen and (max-width: 811px) {
+@media screen and (max-height: 400px) {
+    
+}
+@media screen and (max-width: 900px) {
     a {
         font-size: 1.2vh;
         padding: 2vw;
@@ -71,9 +84,12 @@ p {
         font-size: 3vh;
         
     }
+
+    
+    
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
     span{
         font-size: 3vh;
         

@@ -8,14 +8,14 @@
   bottom: 110px;
 }
 
-@media screen and (max-width: 811px) {
+@media screen and (max-width: 900px) {
   .detail__img {
     margin-left: 40vw;
     position: relative;
     top: 1vh;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .detail {
     margin-top: 20vh;
   }
@@ -31,3 +31,5 @@
     padding: 2vh 3vh;
   }
 }
+
+/*# sourceMappingURL=detail.css.map */

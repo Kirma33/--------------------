@@ -121,72 +121,85 @@
         &__text {
             position: relative;
             right: 5vw;
-            top: 5vh;
+            top: 2.5vh;
 
+            &__p {
+                font-size: 2vh;
+            }
 
 
         }
     }
+
+    .application__text p {
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 3vh;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        padding-bottom: 200px;
+    }
 }
 
-@media screen and (max-width: 811px) {
+    @media screen and (max-width: 900px) {
 
-    .application {
+        .application {
 
-        &__cont {
-            top: 1vh;
-        }
+            &__cont {
+                top: 1vh;
+            }
 
-        &__form {
-            display: block;
-            position: relative;
-            left: 5vw;
-            bottom: 10vh;
-            max-width: 40vw;
+            &__form {
+                display: block;
+                position: relative;
+                left: 5vw;
+                bottom: 10vh;
+                max-width: 40vw;
 
 
-            &__button {
-                font-size: 1.9vw;
-                padding: 2vw 5vw;
+                &__button {
+                    font-size: 1.9vw;
+                    padding: 2vw 5vw;
+                }
             }
         }
     }
-}
 
 
-@media screen and (max-width: 400px) {
+    @media screen and (max-width: 450px) {
 
 
-    .application__text p {
-        left: 7vw;
-        font-size: 2.4vh;
+        .application__text p {
+            left: 7vw;
+            font-size: 2.4vh;
 
+        }
+
+        .application__form {
+            position: relative;
+            left: 0vw;
+            bottom: 12vh;
+
+            &__label {
+                width: 88vw;
+                font-size: 3vh;
+
+            }
+
+            &__input {
+                width: 88vw;
+                font-size: 3vh;
+            }
+
+            &__button {
+                display: block;
+                font-family: Montserrat;
+                text-align: center;
+                padding: 1.5vh 3vh;
+                font-size: 2vh;
+                width: 65vw;
+
+            }
+        }
     }
-
-    .application__form {
-        position: relative;
-        left: 0vw;
-        bottom: 12vh;
-
-        &__label {
-            width: 88vw;
-            font-size: 3vh;
-
-        }
-
-        &__input {
-            width: 88vw;
-            font-size: 3vh;
-        }
-
-        &__button {
-            display: block;
-            font-family: Montserrat;
-            text-align: center;
-            padding: 1.5vh 3vh;
-            font-size: 2vh;
-            width: 65vw;
-
-        }
-    }
-}
